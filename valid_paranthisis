@@ -1,0 +1,37 @@
+s=str(input())
+
+stack = list(s)
+valid_check = []
+
+for i in stack:
+    if i == "(" or i == "[" or i == "{":
+        valid_check.append(i)
+    elif i == ")" and valid_check and valid_check[-1] == "(":
+        valid_check.pop()
+    elif i == "]" and valid_check and valid_check[-1] == "[":
+        valid_check.pop()
+    elif i == "}" and valid_check and valid_check[-1] == "{":
+        valid_check.pop()
+if len(valid_check) == 0:
+    print("True")
+else:
+    print("False")
+
+# s1=s2=s3=0
+# for i in range(len(s)):
+#     if (s[i]=="("):
+#         s1+=1
+#     elif (s[i]=="{"):
+#         s2+=1
+#     elif (s[i]=="["):
+#         s3+=1
+#     elif (s[i]==")"):
+#         s1-=1
+#     elif (s[i]=="}"):
+#         s2-=1
+#     elif (s[i]=="]"):
+#         s3-=1
+# if s1==0 and s2==0 and s3==0:
+#     print("true")
+# else:
+#     print("false")
