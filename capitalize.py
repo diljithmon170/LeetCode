@@ -6,6 +6,7 @@ for i in range(1,len(s)):
         ss+=' '
         ss+=s[i+1].upper()
     else:
+        
         ss+=s[i]
 
 print(ss)
