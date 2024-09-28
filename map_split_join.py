@@ -8,6 +8,12 @@
 
 #by map and split
 
-list1=input()
-list1=list(map(int,list1.split(",")))
-print(list1)
+# list1=input()
+# list1=list(map(int,list1.split(",")))
+# print(list1)
+
+ #join
+car=["benz","bmw","ferari"]
+print(car)
+print("num".join(car))
+
