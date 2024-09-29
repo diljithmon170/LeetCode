@@ -17,4 +17,3 @@ while turn>0:
         s.remove(max_no)
     turn-=1
 print(s)
-
