@@ -8,7 +8,8 @@ for i in stud:
     t=ord(i)
     for i in range(2,(t//2)+1):
         if t%i==0:
-            flag=False 
+            flag=False
+            break
         else:
             flag=True     
     if flag==True:
