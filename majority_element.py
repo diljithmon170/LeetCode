@@ -1,4 +1,4 @@
-arr=[3,3,4,2,4,4,2,4,4]
+arr=[3,3,4,2,4,4,4,4,2]
 len_half=len(arr)/2
 print(len_half)
 for i in arr:
