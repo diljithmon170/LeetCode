@@ -1,4 +1,4 @@
-prices=[1,2,3,4]
+prices=[15,5,10,13,3]
 max_price=0
 diff=0
 for i in range(len(prices)):
