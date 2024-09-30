@@ -6,8 +6,9 @@ for i in range(1,len(s)):
         ss+=' '
         ss+=s[i+1].upper()
     else:
-        
-        ss+=s[i]
+        if i>0:
+            if s[i-1]!=" ":
+                ss+=s[i]
 
 print(ss)
 
