@@ -8,12 +8,13 @@
 
 #by map and split
 
-# list1=input()
-# list1=list(map(int,list1.split(",")))
-# print(list1)
+list1=input()
+list1=list(map(int,list1.split(" ")))
+print(list1)
 
  #join
 car=["benz","bmw","ferari"]
+veh="gf gf fkj gfk"
 print(car)
-print("num".join(car))
+print(' '.join(veh.capitalize() for word in veh.split(' ')))
 
