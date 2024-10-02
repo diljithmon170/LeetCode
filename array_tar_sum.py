@@ -1,5 +1,5 @@
 def sum(arr,tar):
-    l=r=0,len(arr)-1
+    l,r=0,len(arr)-1
     while l<r:
         temp_sum=arr[l]+arr[r]
         if temp_sum==tar:
