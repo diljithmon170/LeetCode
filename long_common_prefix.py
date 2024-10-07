@@ -24,3 +24,5 @@ for s in strs[1:]:
         pref = pref[0:pref_len]  # Shorten the prefix as we find a match
 
 print(pref)
+
+
