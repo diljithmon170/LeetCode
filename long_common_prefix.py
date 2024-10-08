@@ -22,7 +22,7 @@ for s in strs[1:]:
             pref = ""   # Fix: Assign empty string when no common prefix
             break       # Exit while loop when no common prefix
         pref = pref[0:pref_len]  # Shorten the prefix as we find a match
-
+print()
 print(pref)
 
 
